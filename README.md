@@ -6,7 +6,7 @@
     S.Y. 2026-2027
 
 ## QUARTER 1
-  ### Activities
+  ## Activities
 [Computational Thinking Exercise](./q1/ctskillsMagnesiumFrancisco.md)
 
 [Chinese Zodiac](./q1/zodiacMagnesiumFrancisco.md)
