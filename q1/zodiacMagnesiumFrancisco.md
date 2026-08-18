@@ -56,10 +56,7 @@ else:
 ```
 
 ## Output
-![Output 1 (Input: 1800)](images-zodiac/image.png)
-
-![Output 2 (Input: 1900)](images-zodiac/image-2.png)
-
-![Output 3 (Input: 1967)](images-zodiac/image-1.png)
-
-![Output 4 (Input: 2012)](images-zodiac/image-3.png)
+![Output 1 (Input: 1899)](image.png)
+![Output 2 (Input: 1900)](image-2.png)
+![Output 3 (Input: 1967)](image-1.png)
+![Output 4 (Input: 2012)](image-3.png)
