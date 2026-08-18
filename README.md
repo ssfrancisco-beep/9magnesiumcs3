@@ -8,3 +8,4 @@
 ## QUARTER 1
   ### Activities
 [Computational Thinking Exercise](./q1/ctskillsMagnesiumFrancisco.md)
+[Chinese Zodiac](./q1/zodiacMagnesiumFrancisco.md)
