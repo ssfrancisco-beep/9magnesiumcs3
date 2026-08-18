@@ -6,4 +6,4 @@
 
 ## | QUARTER 1
   ### Activities
-    #### Computational Thinking Skills
+    Computational Thinking Skills
