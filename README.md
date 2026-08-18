@@ -8,4 +8,5 @@
 ## QUARTER 1
   ### Activities
     Computational Thinking Skills
+    [TEST](https://github.com)
     [Computational Thinking Exercise](./q1/ctskillsMagnesiumFrancisco.md)
