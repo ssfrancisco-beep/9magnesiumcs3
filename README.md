@@ -1,9 +1,9 @@
-COMPUTER SCIENCE 3 PORTFOLIO
+# COMPUTER SCIENCE 3 PORTFOLIO
 
-| STUDENT INFORMATION
+## | STUDENT INFORMATION
     SHELSY SANCHEZ FRANCISCO
     9-MAGNESIUM | S.Y. 2026-2027
 
-| QUARTER 1
-  Activities
-    Computational Thinking Skills
+## | QUARTER 1
+  ### Activities
+    #### Computational Thinking Skills
