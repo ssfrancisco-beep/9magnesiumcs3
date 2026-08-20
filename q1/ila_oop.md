@@ -115,13 +115,13 @@ OUTPUT:
 
 --- PRODUCT INFORMATION ---
 Product Type: Food
-Product Name: Chips
+Product Name: Piattos
 Quantity: 15
 Price: ₱20
 
 --- PRODUCT INFORMATION ---
 Product Type: Beverage
-Product Name: Soft Drink
+Product Name: BukoRap
 Quantity: 10
 Price: ₱25
 ```
