@@ -28,6 +28,57 @@ The current approach to the inventory system required too many separate variable
 
 In this scenario, Object Oriented Programming (OOP) is a key paradigm to create a more organized and scalable solution. Instead of creating separate variables for every product, a Product class can serve as a template containing the common attributes of a product, such as its name, quantity, and price. 
 
+## PSEUDOCODE
+```text
+CLASS Product
+
+    DATA FIELDS:
+        name
+        quantity
+        print
+    
+    METHOD displayInfo
+        DISPLAY name, quantity, and price
+    END METHOD
+
+    METHOD addProduct
+        INCREASE quantity by the amount added
+        DISPLAY "Product added successfully"
+    END METHOD
+
+    METHOD removeProduct
+        IF quantity to remove is less than or equal to quantity THEN
+            DECREASE quantity by the amount removed
+            DISPLAY "Product removed successfully"
+        ELSE
+            DISPLAY "Not enough stock"
+        END IF
+    END METHOD
+
+END CLASS
+
+CREATE Product product 1
+SET product1.name = "Notebook"
+SET product1.quantity = 20
+SET product1.price = 50
+
+CREATE Product product 1
+SET product1.name = "Ballpen"
+SET product1.quantity = 20
+SET product1.price = 15
+
+DISPLAY product1 information
+DISPLAY product2 information
+
+ADD 10 notebooks to product1
+CALL product1.addProduct(10)
+
+REMOVE 5 notebooks to product1
+CALL product1.removeProduct(5)
+
+DISPLAY updated product1 information
+```
+---
 
 ### 1. Encapsulation
 
@@ -38,7 +89,6 @@ Encapsulation can be used in the sari-sari store inventory system by keeping eve
 
 Abstraction can be used in the sari-sari store inventory system by exposing only the essential operations needed to manage products, such as adding, removing, and displaying items, while hiding the complex details of how these operations are performed. For instance, the user can use an add_item() method without needing to know how the program updates the product’s quantity internally. In this way, abstraction makes the inventory system user-friendly because users only interact with the necessary features while the complex implementation remains hidden.
 
-
 ### 3. Inheritance
 
 Inheritance can be used in the sari-sari store inventory system by creating a general Product class that contains common properties such as name, quantity, and price, which other product classes can inherit. This will be practically useful when more products are added because each new product can inherit these existing properties instead of having them defined separately. As a result, the program can maintain a consistent structure for its products while avoiding unnecessary repetition of the same attributes.
@@ -48,6 +98,38 @@ Inheritance can be used in the sari-sari store inventory system by creating a ge
 
 Polymorphism can be used in the sari-sari store inventory system by allowing the same method or function to work with different product objects. For example, the display() method can be used for different types of products, but its behavior can change depending on the object that uses it. Thus, the same function name can produce different outputs for different objects, allowing the inventory system to handle various products without needing a separate function for each one.
 
+**EXAMPLE INPUT AND OUTPUT**
+```text
+INPUT:
+
+Enter product type: Food
+Enter product name: Piattos
+Enter quantity: 15
+Enter price: 20
+
+Enter product type: Beverage
+Enter product name: BukoRap
+Enter quantity: 10
+Enter price: 25
+
+Enter operation: Display Products
+
+OUTPUT:
+
+--- PRODUCT INFORMATION ---
+Product Type: Food
+Product Name: Chips
+Quantity: 15
+Price: ₱20
+
+--- PRODUCT INFORMATION ---
+Product Type: Beverage
+Product Name: Soft Drink
+Quantity: 10
+Price: ₱25
+```
+
+The user performs the same display() operation for both products. However, the output changes based on the type and information of the product being displayed. This demonstrates polymorphism because the same method can be used for different objects while producing different results.
 
 ## Reflection
 
