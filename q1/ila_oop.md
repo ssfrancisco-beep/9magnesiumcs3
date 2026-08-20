@@ -71,10 +71,7 @@ DISPLAY product1 information
 DISPLAY product2 information
 
 ADD 10 notebooks to product1
-CALL product1.addProduct(10)
-
 REMOVE 5 notebooks to product1
-CALL product1.removeProduct(5)
 
 DISPLAY updated product1 information
 ```
