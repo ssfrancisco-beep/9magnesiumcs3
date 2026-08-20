@@ -7,6 +7,8 @@
 
 ## QUARTER 1
   ## Activities
-[Computational Thinking Exercise](./q1/ctskillsMagnesiumFrancisco.md)
+- [Computational Thinking Exercise](./q1/ctskillsMagnesiumFrancisco.md)
 
-[Chinese Zodiac](./q1/zodiacMagnesiumFrancisco.md)
+- [Chinese Zodiac](./q1/zodiacMagnesiumFrancisco.md)
+
+- [ILA 3-1: Applying the Four Pillars of OOP](q1/ila_oop.md)
