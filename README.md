@@ -12,3 +12,5 @@
 - [Chinese Zodiac](./q1/zodiacMagnesiumFrancisco.md)
 
 - [ILA 3-1: Applying the Four Pillars of OOP](q1/ila_oop.md)
+
+- [Class Object UML](q1/classObjectUML.md)
