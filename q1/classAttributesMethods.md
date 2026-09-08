@@ -26,7 +26,7 @@ Link to my previous activity:
 | Roman Catholic | boolean | Private | It is personal information that should not be directly accesssible by other classes |
 
 ## Updated UML Class Diagram
-![Updated UML Class Diagram](classDiagramSG5.png)
+![Updated UML Class Diagram](images/classDiagramSG5.png)
 
 ## Python Implementation
 [View Python Source](classImplementation.py)
