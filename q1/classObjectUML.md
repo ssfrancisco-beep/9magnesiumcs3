@@ -36,13 +36,14 @@ The Student class serves as a blueprint for representing a student of 9 Magnesiu
 ## Class Diagram
 
 | Student |
-| Name: string 
-| Dorm: int 
-  ALP Club: string
-  Roman Catholic: boolean |
-| study (subject, time) 
-  socialize(person)
-  sleep() |
+|---|
+| Name: string |
+| Dorm: int |
+| ALP Club: string |
+| Roman Catholic: boolean |
+| study (subject, time) |
+| socialize(person) |
+| sleep() |
 
 ## Design Explanation
 ### Why did you choose this class?
