@@ -18,11 +18,13 @@ The MagnesiumAdviser class serves as a blueprint for representing the class advi
 
 ## Association
 Relationship: HAS-A relationship (ADVISER GUIDES STUDENTS)
+
 Explanation: 
 The association is HAS-A relationship because their lifecycles are independent of each other. For instance, if the adviser leaves the school, the students does not cease to exist. In addition, there is no strict ownership between them. They are merely entities that are associated for a period of time, but does not strictly own or destroy one another.
 
 ## Multiplicity
 Multiplicity: One-to-Many (Adviser-----* 9MagnesiumStudent)
+
 Explanation:
 The multiplicity is One-to-Many because only one adviser is assigned to multiple students.
 
