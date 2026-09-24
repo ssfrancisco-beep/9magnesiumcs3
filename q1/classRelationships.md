@@ -29,16 +29,16 @@ Explanation:
 The multiplicity is One-to-Many because only one adviser is assigned to multiple students.
 
 ## UML Class Relationship Diagram   
-![Class Relationship Diagram](classRelationshipDiagram.png)
+![Class Relationship Diagram](q1/images-oopact3/classRelationshipDiagram.png)
 
 ## Python Implementation
-[View Python Source](classRelationships.py)
+[View Python Source](q1/images-oopact3/classRelationships.py)
 
 ## Test Run
 ![Relationship Test Run](<Screenshot 2026-09-24 163143.png>)
 
 ## Object Relationship Diagram
-![Object Relationship Diagram](objectRelationshipDiagram.png)
+![Object Relationship Diagram](q1/images-oopact-3/objectRelationshipDiagram.png)
 
 ## Analysis
 ### What is the association between your two classes?
