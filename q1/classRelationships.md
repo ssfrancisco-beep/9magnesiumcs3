@@ -35,7 +35,7 @@ The multiplicity is One-to-Many because only one adviser is assigned to multiple
 [View Python Source](images-oopact3/classRelationships.py)
 
 ## Test Run
-![Relationship Test Run](<Screenshot 2026-09-24 163143.png>)
+![Relationship Test Run](images-oopact3/TestRun.png)
 
 ## Object Relationship Diagram
 ![Object Relationship Diagram](images-oopact3/objectRelationshipDiagram.png)
