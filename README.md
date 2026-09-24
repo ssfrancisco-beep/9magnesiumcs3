@@ -16,3 +16,5 @@
 - [Class Object UML](q1/classObjectUML.md)
 
 - [Class Attributes Methods](q1/classAttributesMethods.md)
+
+- [Class Relationships](q1/classRelationships.md)
