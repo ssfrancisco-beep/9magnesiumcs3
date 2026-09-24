@@ -6,11 +6,13 @@
 
 ## Existing Class
 Class: MagnesiumStudent
+
 Description: 
 The MagnesiumStudent class serves as a blueprint for representing a student of 9 Magnesium for S.Y. 2026-2027. It defines the common attributes and behaviors that a 9 Magnesium student may have.
 
 ## New Related Class
 Class: MagnesiumAdviser
+
 Description:
 The MagnesiumAdviser class serves as a blueprint for representing the class adviser of 9 Magnesium for S.Y. 2026-2027. It defines the attributes and information that the 9 Magnesium adviser may have.
 
