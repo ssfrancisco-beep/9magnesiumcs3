@@ -34,7 +34,7 @@ Why is the child a type of the parent?
 MagnesiumStudent is a type of Student because a MagnesiumStudent is still a student who possessess the general characteristics and behavior of a student. The MagnesiumStudent class inherits the common attributes and methods of the Student class while adding its own attributes and behaviors specific to a 9-Magnesium student.
 
 ## Inheritance UML
-![Inheritance](inheritanceDiagram.png)
+![Inheritance](images-oopact4/inheritanceDiagram.png)
 
 ## Composition/Aggregation
 Class 1: MagnesiumStudent
