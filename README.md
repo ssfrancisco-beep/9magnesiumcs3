@@ -18,3 +18,5 @@
 - [Class Attributes Methods](q1/classAttributesMethods.md)
 
 - [Class Relationships](q1/classRelationships.md)
+
+- [Advanced Relationships](q1/advancedRelationships.md)
