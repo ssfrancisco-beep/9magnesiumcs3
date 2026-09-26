@@ -18,15 +18,18 @@ Description:
 The MagnesiumAdviser class serves as a blueprint for representing the class adviser of 9 Magnesium for S.Y. 2026-2027. It defines the attributes and information that the 9 Magnesium adviser may have.
 
 2. What problem or limitation exists in your current design?
+
 My current design is limited, as it only establishes relationship between MagnesiumAdviser and MagnesiumStudent from the adviser's side. The adviser stores the students in a list, but each student does not have a direct reference to their adviser. This makes the relationship one-sided or partially represented in the system. This leads to problems such as the limited ability to access information about a student's adviser directly from a MagnesiumStudent object.
 
 ## Inheritance Relationship
 Since MagnesiumAdviser and MagnesiumStudent do not have a parent-child relationship, I added another class, Student, to properly implement inheritance.
 
 Parent Class: Student
+
 Child Class: MagnesiumStudent
 
 Why is the child a type of the parent?
+
 MagnesiumStudent is a type of Student because a MagnesiumStudent is still a student who possessess the general characteristics and behavior of a student. The MagnesiumStudent class inherits the common attributes and methods of the Student class while adding its own attributes and behaviors specific to a 9-Magnesium student.
 
 ## Inheritance UML
@@ -34,24 +37,26 @@ MagnesiumStudent is a type of Student because a MagnesiumStudent is still a stud
 
 ## Composition/Aggregation
 Class 1: MagnesiumStudent
+
 Class 2: MagnesiumAdviser
 
 Relationship: Aggregation (Weak HAS-A Relationship)
 
 Explanation: 
+
 MagnesiumStudent and MagnesiumAdviser have an aggregation relationship, meaning a weak HAS-A relationship. The MagnesiumAdviser has multiple MagnesiumStudent objects under their advisory. However, the students can still meaningfully exist independently of the adviser. For instance, if the adviser leaves the school, the students does not cease to exist. The students are created independently and are only added to the adviser's list through the addStudent() method. Thus, the adviser does not control the student's lifecycles, which makes aggregation more appropriate than composition.
 
 ## Advanced UML Diagram
-![Advanced UML](advancedClassDiagram.png)
+![Advanced UML](images-oopact4/advancedClassDiagram.png)
 
 ## Python Implementation
 [Source Code](advancedRelationships.py)
 
 ## Test Run
-![Test](advancedTestRun.png)
+![Test](images-oopact4/advancedTestRun.png)
 
 ## Object Diagram
-![Objects](advancedObjectDiagram.png)
+![Objects](images-oopact4/advancedObjectDiagram.png)
 
 ## Reflection
 Answers:
