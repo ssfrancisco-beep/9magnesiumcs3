@@ -20,3 +20,8 @@
 - [Class Relationships](q1/classRelationships.md)
 
 - [Advanced Relationships](q1/advancedRelationships.md)
+
+## QUARTER 2
+  ## Activities
+
+- [SG8 Encapsulation Activity 3](q2/sg8_encapsulation.py)
