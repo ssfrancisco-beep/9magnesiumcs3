@@ -25,3 +25,4 @@
   ## Activities
 
 - [SG8 Encapsulation Activity 3](q2/sg8_encapsulation.py)
+- [SG9 Inheritance Activity 3](q2/sg9_inheritance.py)
