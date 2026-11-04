@@ -1,5 +1,5 @@
 class Animal:
-    def __init__(self, name: str)
+    def __init__(self, name: str):
         self._name = name
 
     @property
@@ -16,11 +16,11 @@ class Lion(Animal):
 
     @property
     def make_sound(self):
-        print(f"{name} roars loudly!")
+        return (f"{self._name} roars loudly!")
 
     @property
     def eat(self):
-        print(f"{name} eats fresh meat.")
+        return (f"{self._name} eats fresh meat.")
     
 class Elephant(Animal):
     def __init__(self, name):
@@ -28,11 +28,11 @@ class Elephant(Animal):
 
     @property
     def make_sound(self):
-        print(f"{name} trumpets!")
+        return (f"{self._name} trumpets!")
     
     @property
     def eat(self):
-        print(f"{name} grass and fruits.")
+        return (f"{self._name} eats grass and fruits.")
 
 class Monkey(Animal):
     def __init__(self, name):
@@ -40,24 +40,24 @@ class Monkey(Animal):
 
     @property
     def make_sound(self):
-        print(f"{name} chatters!")
+        return (f"{self._name} chatters!")
   
     @property
     def eat(self):
-        print(f"{name} bananas.")
+        return (f"{self._name} eats bananas.")
 
 lion = Lion("Simba")
 elephant = Elephant("Dumbo")
 monkey = Monkey("George")
 
-print(lion.make_sound())
-print(lion.eat())
+print(lion.make_sound)
+print(lion.eat)
 print("-------")
 
-print(elephant.make_sound())
-print(elephant.eat())
+print(elephant.make_sound)
+print(elephant.eat)
 print("-------")
 
-print(monkey.make_sound())
-print(monkey.eat())
+print(monkey.make_sound)
+print(monkey.eat)
 print("-------")
