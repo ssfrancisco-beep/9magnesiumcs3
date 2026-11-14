@@ -20,4 +20,6 @@
 
 - [SG8 Encapsulation Activity 3](q2/sg8_encapsulation.py)
 - [SG9 Inheritance Formative Assessment No. 1](q2/sg9_inheritance.py)
-- [Activity 1 Method Overriding](q2/methodoverriding.py)
+- [SG10 Method Overriding Activity 1](q2/methodoverriding.py)
+- [SG11 Polymorphism Activity 1](q2/sg11_polymorphism_a1.py)
+  
