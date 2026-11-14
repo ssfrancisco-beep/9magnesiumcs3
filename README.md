@@ -22,4 +22,4 @@
 - [SG9 Inheritance Formative Assessment No. 1](q2/sg9_inheritance.py)
 - [SG10 Method Overriding Activity 1](q2/methodoverriding.py)
 - [SG11 Polymorphism Activity 1](q2/sg11_polymorphism_a1.py)
-- [SG11 Polymorphism Activity 2](q2/sg11_polymorphism_a1.md)  
+- [SG11 Polymorphism Activity 2](q2/sg11_polymorphism_a2.md)  
