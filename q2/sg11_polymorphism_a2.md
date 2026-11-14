@@ -12,7 +12,7 @@ The Car class needed to have the speak() method so that it could work inside the
 
 2. Python Code
 
-[Activity 2.2 Source Code](q2/sg11_polymorphism_a2.py)
+[Activity 2.2 Source Code](sg11_polymorphism_a2.py)
 
 3. How does the code in 2.2 demonstrate polymorphism?
 
